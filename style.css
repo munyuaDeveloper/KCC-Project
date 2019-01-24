@@ -1,0 +1,391 @@
+
+body,h1,h2,h3,h4,h5,h6,p,a{
+	margin: 0;
+	padding: 0;	
+	
+}
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #818181;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: georgia;
+	color: #5bc0de;
+}
+
+.navbar{
+	margin: 0 !important;
+	background-color:  #5bc0de;
+	border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #0000b3;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:#000066;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #5bc0de;
+    background-color:#fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-family: georgia;
+    font-size: 20px;
+}
+.dropdown-menu>li>a {
+    color: #5bc0de;
+}
+.dropdown-menu>li>a:hover {
+	background: #5bc0de;
+    color: #fff;
+}
+#hero{
+	background: url('asset/images/cow1.jpg') 50% 0 repeat fixed;
+	min-height: 700px;
+	background-size: cover;
+	-webkit-font-smoothing:antialised;
+	text-rendering: optimizeLegibility;
+	display: table;
+	text-align: center;
+	color: white;
+	
+}
+#hero .hero{
+	font-family: lato;
+	color: white;
+	font-size: 18px;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+#services{
+	margin: 40px 0;
+
+}
+#service img{
+	display: block;
+	margin: auto;
+}
+
+/*=========blog page====================*/
+.feature-img{
+	height: 300px;
+	width: 100%;
+	background:url('asset/images/cow4.jpg') no-repeat;
+	background-size: cover;
+	display: table;
+
+}
+.feature-img h1{
+	display: table-cell;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+article{
+	margin: 30px 0;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+article h3{
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	text-decoration: none;
+}
+ .banner, .post-comments-badge, .post-title{
+ 	display: inline-block;
+ 	margin-right: 0px;
+}
+.banner{
+	width: 40px;
+	text-align: left;
+	color: #5bc0de;
+	border-bottom: 5px solid #5bc0de;
+}
+.post-title{
+	text-align: center;
+	width: 86%;
+}
+.details{
+	text-align: center;
+	color: #5bc0de;
+	font-size: 14px;
+
+}
+.details i{
+	padding: 2px 2px 0 5px;
+
+}
+.details a{
+	text-decoration: none;
+	color: #5bc0de;
+
+}
+.details a:hover{
+	text-decoration: none;
+	color: blue;
+
+}
+/*===comments badge=============================================*/
+.post-comments-badge{
+	height: 50px;
+	width: 50px;
+	float: right;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	padding: 0;
+	border: none;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	border-radius: 100%;
+	background: #5bc0de;
+	text-align: center;
+	display: table;
+}
+.post-comments-badge a{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 20px;
+	line-height: 20px;
+}
+.post-comments-badge  i.fa{
+	
+	font-size: 15px;
+	padding: 0;
+	margin-bottom: 4px;
+}
+.post-comments-badge:hover{
+	background: blue;
+}
+.widget{
+	margin: 20px 0;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+.widget h3{
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*===Account page=============================================*/
+table input{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+table th{
+	text-align: center;
+	color: #5bc0de;
+}
+table i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #5bc0de;
+	text-align: center;
+}
+
+
+/*===contact page=============================================*/
+.form{
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+}
+#social{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+}
+#social img{
+	margin-top: 50px;
+	position: relative;
+	left: 30%;
+	border-radius: 100%;
+	height: 150px;
+	width: 150px;
+}
+#social-icon {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+
+}
+#social-icon a{
+	text-decoration: none;
+  	margin:2px;
+  	margin-right: 6px;
+  	color: white;
+	border: none;
+	border-radius: 100%;
+	padding:2px;
+}
+
+.whatsapp{
+	background-color: #00cc00;
+}
+.facebook{
+	background-color: #000099;
+}
+.twitter{
+	background-color: #6699ff;
+}
+.link{
+	background-color: #4d88ff;
+}
+.youtube{
+	background-color: #ff0000;
+}
+.pin{
+	background-color: #4d88ff;
+}
+.inst{
+	background-color: #ff1a75;
+}
+#social i{
+	padding: 2px;
+
+}
+
+
+/*===About  page=============================================*/
+#about{
+	margin-top: 40px;
+}
+  #about .fa {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color:#5bc0de;
+  }
+#globe{
+	margin-top: 30px;
+	text-align: center;
+	
+}
+#signal{
+	padding-top: 30px;
+}
+
+.logo-small {
+      color: #5bc0de;
+      font-size: 50px;
+  }
+  .logo {
+      color: #5bc0de;
+      font-size: 150px;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+
+ .modal-header {
+      background-color: #5bc0de !important;
+     
+  }
+  .modal-header h4, .close{
+  	 color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+
+
+/*===footer page=============================================*/
+footer{
+	background-color: #222;
+	min-height: 60px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+footer a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #5bc0de;
+	font-size: 30px; 
+}
+footer a:hover{
+	font-size: 26px;
+	color: #5bc0de;
+}
+footer a:visited{
+	text-decoration: none;
+}
+footer p{
+	padding: 0;
+	margin:-10px;
+	text-align: center;
+	font-family:arial;
+	color: white;
+	font-size: 18px;
+
+}
+/*=============== Footer section=================*/
+#iconsfooter{
+	text-align: center;
+	font-size: 24px;
+	color: white;
+}
+#iconsfooter i{
+	border-radius: 100%;
+	padding: 6px;
+}
+.fa-facebook{
+	background-color: #000099;
+}
+.fa-twitter{
+	background-color: #4d4dff;
+}
+.fa-whatsapp{
+	background-color: #00ff00;
+}
+.fa-youtube{
+	background-color: #ff0000;
+}
+.fa-instagram{
+	background-color: #ff3399;
+}
+.fa-linkedin{
+	background-color: #33ccff;
+}
+
+.nav>li>a{
+	color: white;
+}
+.nav>li>a:hover{
+	background-color: #33ff33;
+}
+/*====media queries====*/
+@media screen and (max-width: 274px){
+	.feature-img h1{
+		font-size: 12px !important;
+	}
+}
