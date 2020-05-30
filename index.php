@@ -26,7 +26,7 @@ include("includes/header.php");
 	<!----Services Section
 		=================================================================-->
 	
-	<section>
+	<div>
 		<div id="services" class="container text-center">
 			<h3><u>SERVICES</u> </h3>
 			<h4>What we offer</h4><br>
@@ -68,7 +68,7 @@ include("includes/header.php");
 			</div>
 		</div>
 
-	</section>
+	</div>
 
 <?php
 
