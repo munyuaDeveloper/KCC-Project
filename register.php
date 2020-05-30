@@ -34,11 +34,11 @@ if (@$_SESSION['email']) {
 					</div>
 					<div class="form-group">
 						<label for="pwd">Password:</label>
-					    <input type="pwd" class="form-control" name="pass" required>
+					    <input type="password" class="form-control" name="pass" required>
 					</div>
 					<div class="form-group">
 						<label for="pwd">Confirm Password:</label>
-					    <input type="pwd" class="form-control" name="pwd" required>
+					    <input type="password" class="form-control" name="pwd" required>
 					</div>
                     <div class="form-group">
 						<label for="address">Address:</label>
@@ -76,7 +76,7 @@ if (@$_SESSION['email']) {
 	            	$Number_litres  = $_POST['Number_litres'];
 	            	$farmer_id = rand(1000, 100000);
 	            	if($pass==$pwd){
-	            		$password = $pass; 
+	            		$password = md5($pass); 
 	            	}else{
 	            		echo " <script>alert('The password entered does not match!')</script>";
 	            		die();

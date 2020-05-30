@@ -18,7 +18,7 @@
 	            </div>
 	            <div class="form-group">
 	              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-	              <input type="text" class="form-control" name="password" id="psw" placeholder="Enter password">
+	              <input type="password" class="form-control" name="password" id="psw" placeholder="Enter password">
 	            </div>
 	            <div class="checkbox">
 	              <label><input type="checkbox" value="" checked>Remember me</label>
@@ -40,7 +40,7 @@
 
 if(isset($_POST['Login'])){
 	$c_email=$_POST['email'];
-	$c_pass=$_POST['password'];
+	$c_pass= md5($_POST['password']);
 
 	$login_query = "SELECT* from farmers where email = '$c_email' AND password ='$c_pass'";
 	$run_query=mysqli_query($connect,$login_query);
